@@ -1,7 +1,4 @@
-let a = "C is fun";
-let b = "Python is cool";
-let c = "Javascript is amazing";
-
-console.log(a);
-console.log(b);
-console.log(c);
+let a = ["C is fun","Python is cool","Javascript is amazing"]
+for(let i=0; i<a.length; i++){
+    console.log(a[i])
+}
