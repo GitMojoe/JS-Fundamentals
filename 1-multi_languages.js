@@ -1,0 +1,1 @@
+console.log(' C is fun\n Pyton is cool\n Javascript is amazing')
