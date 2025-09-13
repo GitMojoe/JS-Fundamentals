@@ -1,7 +1,7 @@
-const args = process.argv;
-
-if(args.length <=2){
-    console.log("No Argument found")
+const args = process.argv.splice(2)
+let num1 = args[0]
+if(num1 == "string"){
+console.log(num1);
 }else{
-    console.log(args[2])
+    console.log("No argument")
 }
