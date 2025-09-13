@@ -1,4 +1,3 @@
-let a = ["C is fun","Python is cool","Javascript is amazing"]
-for(let i=0; i<a.length; i++){
-    console.log(a[i])
-}
+console.log("C is fun")
+console.log("Python is cool");
+console.log("Javascript is amazing");
