@@ -1,5 +1,3 @@
-let a = "C is fun\n";
-let b = "Python is cool\n";
-let c = "Javascript is amazing\n";
+let a = ["C is fun", "Python is cool", "Javascript is amazing"];
 
-console.log(a,b,c);
+console.log(a);
