@@ -2,13 +2,11 @@ const args =process.argv;
 
 let num1 = Number(parseInt(args[2]))
 
-if(!isNaN(num1)){
-let i=0;
-while(i<num1){
-    console.log("C is fun");
-    i++;
-}
+if(isNaN(num1)){
+console.log("Missing number of occurences")
 
 }else{
-    console.log("Missing number of occurences")
+   for(let i =0; i<num1; i++){
+    console.log("C is fun")
+   }
 }
