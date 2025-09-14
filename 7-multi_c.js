@@ -1,6 +1,6 @@
-const args =process.argv;
+const args =process.argv.slice(2);
 
-let num1 = Number(parseInt(args[2]))
+let num1 = Number(parseInt(args[0]))
 
 if(num1.isInteger===false || isNaN(num1){
 console.log("Missing number of occurences")
