@@ -1,21 +1,13 @@
-const args = parseInt(process.argv[2])
+const size = parseInt(process.argv[2]);
 
-if(isNaN(args)){
-    console.log(`Missing size`)
+function printRow(n, count = 0) {
+  if (count >= n) return;
+  console.log('X'.repeat(n));
+  printRow(n, count + 1);
+}
+
+if (isNaN(size)) {
+  console.log('Missing size');
 } else {
-    // let i =0;
-    // while(i<args){
-    // console.log(`xx`)
-    // i++
-    // }
-
-const x =()=>{
-let i=0;
-while(i<args){
-    console.log(`xx`)
-    i++;
+  printRow(size);
 }
-};
-const y = x(args)
-}
-
