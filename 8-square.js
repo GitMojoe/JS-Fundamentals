@@ -1,9 +1,11 @@
-const args = process.argv.splice(2)
-let num1 = parseInt(args[0])
-if(num1.isInteger ===false || isNaN(num1)){
+const args = parseInt(process.argv[2])
+
+if(isNaN(args)){
     console.log(`Missing size`)
 } else {
-    for(let i =0; i<num1; i++){
+    let i =0;
+    while(i<args){
     console.log(`xx`)
-}
+    i++
+    }
 }
