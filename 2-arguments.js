@@ -1,7 +1,7 @@
 let args = process.argv;
 
 if(args.length ==2){
-    console.log("No Argument")
+    console.log("No  Argument")
 }else if(args.length==3){
     console.log("Argument found")
 }else{
