@@ -1,7 +1,6 @@
-const args = process.argv.splice(2)
-let num1 = args[0]
-if(num1 == "string"){
-console.log(num1);
-}else{
+const args =process.argv;
+if(args[2]===undefined){
     console.log("No argument")
+}else{
+    console.log(args[2])
 }
