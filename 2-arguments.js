@@ -1,6 +1,6 @@
-const args = process.argv;
+let args = process.argv;
 
-if(args.length <=2){
+if(args.length ==2){
     console.log("No Argument found")
 }else if(args.length==3){
     console.log("Argument found")
