@@ -1,17 +1,9 @@
-const x = Number(parseInt(process.argv[2]))
+const x = parseInt(process.argv[2]);
 
-if(isNaN(x)){
-    console.log(1)
-}else{
-const facto = (y) =>{
-for(let i =0; i<x; i++){
-    let num =1;
-    num= num*i;
-    console.log(num)
+function factorial(n) {
+    if (isNaN(n) || n < 0) return 1;
+    if (n === 0) return 1;
+    return n * factorial(n - 1);
 }
-};
 
-let z = facto(x);
-//console.log(z)
-
-}
+console.log(factorial(x));
